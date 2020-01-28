@@ -1,0 +1,20 @@
+body {
+	background:#8ECCC6;
+	font-style: helvetica;
+	color:white;
+	font-size: 20;
+	padding: 70px 20px 20px 70px;
+}
+
+a{
+	color:#D4A85D;
+
+}
+
+a:hover{
+	background-color:white;
+}
+
+li {
+	list-style: none;
+}
