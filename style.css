@@ -7,12 +7,12 @@ body {
 }
 
 a{
-	color:#D4A85D;
+	color:white;
 
 }
 
 a:hover{
-	background-color:white;
+	background-color:black;
 	font-size:25px;
 }
 
