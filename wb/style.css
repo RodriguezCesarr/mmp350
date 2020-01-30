@@ -9,6 +9,8 @@ body {
 #container{
 	max-width: 600px;
 	margin: 0 auto;
+	box-shadow: 20 20 20 20;
+	color: black;
 }
 
 a{
@@ -17,8 +19,9 @@ a{
 }
 
 a:hover{
-	background-color:#C0964D;
+	background-color:white;
 	font-size:25px;
+	color: black;
 }
 
 li {
