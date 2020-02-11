@@ -1,18 +1,5 @@
-*{
-	box-sizing: border-box;
-}
-
-#container{
-	max-width: 500px;
-	text-align: center;
-	margin: 0 auto;
-	color: black;
-	background-color: #8ECCC6;
-	border-radius: 20px;
-	padding:40px 20px;}
-
 body {
-	background:white;
+	background:#1e1e1e;
 	font-style: helvetica;
 	color:white;
 	font-size: 20;
@@ -29,6 +16,14 @@ a:hover{
 	font-size:25px;
 	color:white;
 }
+#container{
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto;
+	color: black;
+	background-color: #8ECCC6;
+	border-radius: 20px;
+	padding:40px 20px;
 
 li {
 	list-style: none;

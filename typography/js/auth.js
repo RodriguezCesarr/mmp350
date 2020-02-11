@@ -13,5 +13,5 @@ function onError(errorMessae){
 }
 
 function userLoggedIn(uid, displayName){
-	userName.tectContemt = "welcome" + displayName;
+	userName.textContent = "welcome" + displayName;
 }
