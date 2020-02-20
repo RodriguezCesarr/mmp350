@@ -1,11 +1,24 @@
-.post-text {
-	font-size: 1.25em;
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Lacquer', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+h1,
+input,
+button {
+	font-family: 'Lacquer', sans-serif; 
 }
 
-.post-info {
+.post,
+a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.post-date {
 	color: gray;
 }
-
 .post-author {
-	color: blue;
+	font-weight: bolder;
+	font-family:'Roboto', sans-serif;
 }
