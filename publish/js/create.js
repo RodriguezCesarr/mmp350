@@ -9,6 +9,12 @@ signUpButton.onclick= function() {
 	fb.create(signUpUserName.value, signUpEmail.value, signUpPassword.value);
 };
 
+signUpPassword.addEventListener('keyup', function(event) {
+	if (event.which == 13) {
+		fb.create(signUpUserName.value, signUpEmail.value, signUpPassword.value);
+	}
+});
+
 function onError(errorMessae){
 	signUpMessage.textContent = errorMessae;
 }
